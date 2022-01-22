@@ -7,7 +7,7 @@ def build_car(manufaktura, model_name, **car_info):
     car['model'] = model_name
 
     for key,value in car_info.items():
-        car['key'] = value
+        car[key] = value
         return car
 
 
